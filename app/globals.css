@@ -189,8 +189,8 @@ body {
 
 .balance-title {
   font-size: 20px;
-  color: var(--primary-color);
-  font-weight: 400;
+  color: var(--text-color);
+  font-weight: 700;
   margin-bottom: 10px;
 }
 
@@ -223,8 +223,8 @@ body {
 .income-title,
 .expense-title {
   font-size: 20px;
-  color: var(--primary-color);
-  font-weight: 400;
+  color: var(--text-color);
+  font-weight: 700;
   margin-bottom: 10px;
 }
 
