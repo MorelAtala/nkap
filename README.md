@@ -76,3 +76,17 @@ NKAP uses a PostgreSQL database. To set up the database schema, run:
 
 ```bash
 npx prisma migrate dev --name init
+```
+
+## Améliorations
+
+In the future, NKAP could be enhanced with the following features:
+
+1. **AI-Powered Automatic Categorization**: By using AI, the app could automatically assign categories to expenses based on their descriptions. For example:
+    - If the description is "taxi," it would automatically categorize the expense under "Transport."
+    - If the description is "Matango," it could be categorized under "Drinks."
+   
+   This feature would simplify the app's usability and save users time by automating category assignment.
+
+2. **Budget Setting**: Users could set budgets for specific categories (e.g., "Food," "Entertainment") and track their spending against these budgets. This would help users manage their finances more effectively, similar to other expense tracker apps.
+
